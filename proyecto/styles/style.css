@@ -1,0 +1,85 @@
+body {
+    background-color: #F2D1CE
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+header ul {
+    list-style-type: none;
+    font-style: oblique;
+}
+
+.Logo {
+    width: 10rem;
+}
+
+
+
+.Imagen-Pintora {
+    width: 20rem;
+}
+
+
+.parrafo-uno {
+    color: darkslategrey;
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+/*Parrafo-uno-uno*/
+
+.parrafo-uno-uno {
+    color: darkslategrey;
+    font-size: large;
+    font-style: oblique;
+
+}
+
+
+.parrafo-dos {
+    color: darkslategrey;
+    font-size: xx-large;
+    font-style: oblique;
+
+
+}
+
+/*Parrafo dos dos*/
+.parrafo-dos-dos {
+    color: darkslategrey;
+    font-size: large;
+    font-style: oblique;
+}
+
+
+
+
+
+
+
+
+.parrafo-tres {
+    color: darkslategrey;
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+/* Parrafo-tres-tres*/
+.parrafo-tres-tres {
+    color: darkslategrey;
+    font-size: large;
+    font-style: oblique;
+}
+
+footer {
+    color: midnightblue;
+    font-size: larger;
+    font-style: oblique;
+}
+
+footer ul {
+    list-style-type: disc;
+
+}
