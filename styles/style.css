@@ -2,18 +2,25 @@ body {
     background-color: #F2D1CE
 }
 
+.Logo {
+    width: 10rem;
+}
+
+
+
+/*
 h1 {
     font-size: xx-large;
 }
 
-header ul {
+*/
+
+
+
+/* header ul {
     list-style-type: none;
     font-style: oblique;
-}
-
-.Logo {
-    width: 10rem;
-}
+}/
 
 
 
