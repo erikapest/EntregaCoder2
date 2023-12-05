@@ -24,9 +24,7 @@ h1 {
 
 
 
-.Imagen-Pintora {
-    width: 20rem;
-}
+
 
 
 .parrafo-uno {
@@ -36,7 +34,13 @@ h1 {
 }
 
 /*Parrafo-uno-uno*/
+section.Imagen-Pintora {
+    flex-flow: row wrap;
 
+}
+img.Imagen-Pintora {
+    width: 20rem;
+}
 .parrafo-uno-uno {
     color: darkslategrey;
     font-size: large;
