@@ -6,83 +6,36 @@ body {
     width: 10rem;
 }
 
-
-
-/*
-h1 {
-    font-size: xx-large;
-}
-
-*/
-
-
-
-/* header ul {
-    list-style-type: none;
-    font-style: oblique;
-}/
-
-
-
-
-
-
-.parrafo-uno {
-    color: darkslategrey;
-    font-size: xx-large;
-    font-style: oblique;
-}
-
-/*Parrafo-uno-uno*/
+    
 section.Imagen-Pintora {
-    flex-flow: row wrap;
-
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
+}
+section.Imagen-Pintora div {
+    margin: auto 1rem;
 }
 img.Imagen-Pintora {
     width: 20rem;
 }
-.parrafo-uno-uno {
-    color: darkslategrey;
-    font-size: large;
-    font-style: oblique;
 
+
+.titulo-pintora {
+    font-size: larger;
 }
 
 
-.parrafo-dos {
-    color: darkslategrey;
-    font-size: xx-large;
-    font-style: oblique;
-
+section.Pintoras-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 
 }
 
-/*Parrafo dos dos*/
-.parrafo-dos-dos {
-    color: darkslategrey;
-    font-size: large;
-    font-style: oblique;
+section.Pintoras-flex div {
+    margin: auto 1rem;
+    width: 20rem;
 }
 
-
-
-
-
-
-
-
-.parrafo-tres {
-    color: darkslategrey;
-    font-size: xx-large;
-    font-style: oblique;
-}
-
-/* Parrafo-tres-tres*/
-.parrafo-tres-tres {
-    color: darkslategrey;
-    font-size: large;
-    font-style: oblique;
-}
 
 footer {
     color: midnightblue;
